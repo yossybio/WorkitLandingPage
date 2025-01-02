@@ -1,0 +1,13 @@
+.secondaryBtnStyle {
+  text-decoration: none;
+  border-bottom: 2px solid #44ffa1;
+  color: white;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32.4px;
+}
+
+.secondaryBtnStyle:hover {
+  color: #44ffa1;
+}
