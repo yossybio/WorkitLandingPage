@@ -5,6 +5,7 @@ import ButtonSecondary from "./ButtonSecondary";
 import Logo from "../assets/images/logo-light.svg";
 import leftImage from "../assets/images/bg-pattern-1.svg";
 import rightImage from "../assets/images/bg-pattern-2.svg";
+import Ornamental from "./Ornamental";
 
 export default function Hero() {
   return (
@@ -35,7 +36,8 @@ export default function Hero() {
           <ButtonPrimary name="Learn more" />
         </div>
       </div>
-      <svg
+      <Ornamental />
+      {/* <svg
         className={StyleSheet.ornamental}
         width="100vw"
         height="7.2rem"
@@ -49,7 +51,7 @@ export default function Hero() {
           fill="#FCF8FF"
           fillRule="evenodd"
         />
-      </svg>
+      </svg> */}
     </main>
   );
 }

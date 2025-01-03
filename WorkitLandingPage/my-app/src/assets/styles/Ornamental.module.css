@@ -1,0 +1,6 @@
+.ornamental {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  transform: translate(0, 2%);
+}
