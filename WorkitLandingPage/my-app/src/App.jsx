@@ -3,6 +3,9 @@ import heroIllustration from "./assets/images/image-hero.webp";
 import Hero from "./components/hero";
 import Ornamental from "./components/Ornamental";
 import Value from "./components/Value";
+import founderImg from "./assets/images/image-founder.webp";
+import ButtonPrimary from "./components/ButtonPrimary";
+import decorationImg from "./assets/images/bg-pattern-3.svg";
 
 function App() {
   return (
@@ -36,6 +39,32 @@ function App() {
           </div>
         </div>
         <Ornamental />
+      </section>
+      <section className={styleSheet.cta}>
+        <div className={styleSheet.content}>
+          <div className={styleSheet.headshot}>
+            <img
+              className={styleSheet.imgSize}
+              src={founderImg}
+              alt="Founder profile Image"
+            />
+          </div>
+          <div className={styleSheet.ctaContent}>
+            <div className={styleSheet.ctaContentMain}>
+              <h3>Be the first to test</h3>
+              <p>
+                Hi, I&apos; m Louis Graham, the founder of the company. Book a
+                demo call with me to become a beta tester for our app and
+                kickstart your company. Apply for access below and I’ll be in
+                touch to schedule a call.
+              </p>
+              <div>
+                <ButtonPrimary name="Apply for access" />
+              </div>
+              <img src={decorationImg} alt="Img for decoration" />
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );

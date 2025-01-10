@@ -8,6 +8,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .headerContainer {
   display: flex;
   flex-direction: column;
@@ -33,4 +37,67 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 3.2rem;
+}
+
+.cta {
+  padding-top: 11.2rem;
+  padding-right: 8rem;
+  padding-left: 8rem;
+}
+
+.cta .content {
+  width: 112rem;
+  height: 57.9rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.ctaContentMain img {
+  position: absolute;
+  bottom: 0;
+  right: 16rem;
+  width: 17.3rem;
+  height: 13.7rem;
+}
+
+.ctaContent {
+  padding-top: 16.8rem;
+  width: 73rem;
+  margin-left: -12rem;
+}
+
+.ctaContentMain {
+  padding: 6.4rem;
+  background-color: #24053e;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.ctaContentMain h3 {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 5.6rem;
+  font-weight: 400;
+  line-height: 6.72rem;
+}
+
+.ctaContentMain p {
+  color: #ffffff;
+  font-family: Manrope;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.24rem;
+}
+
+.headshot {
+  width: 47.7rem;
+  height: 57.9rem;
+}
+
+.imgSize {
+  width: 47.7rem;
+  height: 47.7rem;
 }
