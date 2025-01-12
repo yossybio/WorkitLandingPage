@@ -33,7 +33,7 @@ body {
   padding: 8rem 8.8rem 8rem 14.4rem;
 }
 
-.content {
+.values {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 3.2rem;
@@ -51,6 +51,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+
+  display: flex;
+  gap: 0.8rem;
 }
 
 .ctaContentMain img {

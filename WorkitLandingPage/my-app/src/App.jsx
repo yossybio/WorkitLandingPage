@@ -20,7 +20,7 @@ function App() {
       </header>
       <section className={styleSheet.sectionValues}>
         <div className={styleSheet.valuesContainer}>
-          <div className={styleSheet.content}>
+          <div className={styleSheet.values}>
             <Value
               sequence="1"
               caption="Actionable insights"
@@ -42,13 +42,18 @@ function App() {
       </section>
       <section className={styleSheet.cta}>
         <div className={styleSheet.content}>
-          <div className={styleSheet.headshot}>
+          {/* <div className={styleSheet.headshot}>
             <img
               className={styleSheet.imgSize}
               src={founderImg}
               alt="Founder profile Image"
             />
-          </div>
+          </div> */}
+          <img
+            className={styleSheet.imgSize}
+            src={founderImg}
+            alt="Founder profile Image"
+          />
           <div className={styleSheet.ctaContent}>
             <div className={styleSheet.ctaContentMain}>
               <h3>Be the first to test</h3>
