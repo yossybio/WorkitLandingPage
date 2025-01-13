@@ -6,6 +6,10 @@ import Value from "./components/Value";
 import founderImg from "./assets/images/image-founder.webp";
 import ButtonPrimary from "./components/ButtonPrimary";
 import decorationImg from "./assets/images/bg-pattern-3.svg";
+import Logo from "./assets/images/logo-dark.svg";
+import facebookIcon from "./assets/images/icon-facebook.svg";
+import twitterIcon from "./assets/images/icon-twitter.svg";
+import instegramIcon from "./assets/images/icon-instagram.svg";
 
 function App() {
   return (
@@ -42,13 +46,6 @@ function App() {
       </section>
       <section className={styleSheet.cta}>
         <div className={styleSheet.content}>
-          {/* <div className={styleSheet.headshot}>
-            <img
-              className={styleSheet.imgSize}
-              src={founderImg}
-              alt="Founder profile Image"
-            />
-          </div> */}
           <img
             className={styleSheet.imgSize}
             src={founderImg}
@@ -71,6 +68,22 @@ function App() {
           </div>
         </div>
       </section>
+      <footer className={styleSheet.footer}>
+        <div className={styleSheet.footerContent}>
+          <img src={Logo} alt="workIt logo" />
+          <div className={styleSheet.socialMediaLinks}>
+            <a href="#">
+              <img src={facebookIcon} alt="Facebook icon" />
+            </a>
+            <a href="#">
+              <img src={twitterIcon} alt="Twitter icon" />
+            </a>
+            <a href="#">
+              <img src={instegramIcon} alt="Instagram icon" />
+            </a>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }

@@ -104,3 +104,21 @@ body {
   width: 47.7rem;
   height: 47.7rem;
 }
+
+.footer {
+  padding: 11.2rem 8rem 11.2rem 8rem;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
+  align-items: center;
+}
+
+.socialMediaLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
