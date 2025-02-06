@@ -107,7 +107,7 @@ body {
 }
 
 .footer {
-  padding: 11.2rem 8rem 11.2rem 8rem;
+  padding: 8rem;
 }
 
 .footerContent {
@@ -137,7 +137,27 @@ body {
     margin-top: -13rem;
   }
 
+  .cta {
+    padding-right: 4.4rem;
+    padding-left: 4.4rem;
+  }
+
   .values {
     display: block;
+  }
+
+  .ctaContentMain h3 {
+    font-size: 4.8rem;
+    line-height: 5.76rem;
+  }
+
+  .ctaContentMain p {
+    font-size: 1.6rem;
+    line-height: 2.88rem;
+  }
+
+  .ctaContentMain img {
+    bottom: -5rem;
+    right: 0;
   }
 }
