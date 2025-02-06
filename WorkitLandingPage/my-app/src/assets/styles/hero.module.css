@@ -5,7 +5,7 @@
   width: 100vw;
   position: relative;
 
-  height: 773px;
+  height: 77.3rem;
   overflow: hidden;
 }
 
@@ -78,3 +78,40 @@
   bottom: 0;
   transform: translate(0, 2%);
 } */
+
+/* Media query for devices with a max width of 1240px: */
+@media (max-width: 77.5rem) {
+  .container {
+    height: 63.5rem;
+  }
+  .mainContent {
+    width: 60%;
+  }
+}
+
+/* Media query for devices with a max width of 1040px: */
+@media (max-width: 65rem) {
+  .container {
+    height: 63.5rem;
+  }
+
+  .headerLeftImage {
+    left: -15.5rem;
+  }
+
+  .mainContent {
+    width: 70%;
+  }
+}
+
+/* Media query for devices with a max width of 840px: */
+@media (max-width: 52.5rem) {
+  .caption {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+
+  .container {
+    height: 51.5rem;
+  }
+}

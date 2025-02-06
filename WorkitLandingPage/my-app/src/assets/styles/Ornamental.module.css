@@ -4,3 +4,24 @@
   bottom: 0;
   transform: translate(0, 13%);
 }
+
+/* Media query for devices with a max width of 1240px: */
+@media (max-width: 77.5rem) {
+  .ornamental {
+    transform: translate(0, 18%);
+  }
+}
+
+/* Media query for devices with a max width of 1040px: */
+@media (max-width: 65rem) {
+  .ornamental {
+    transform: translate(0, 25%);
+  }
+}
+
+/* Media query for devices with a max width of 1040px: */
+@media (max-width: 65rem) {
+  .ornamental {
+    transform: translate(0, 30%);
+  }
+}
