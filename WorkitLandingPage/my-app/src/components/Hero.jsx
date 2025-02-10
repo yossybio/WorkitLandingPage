@@ -31,7 +31,7 @@ export default function Hero() {
       <div className={StyleSheet.mainContent}>
         <div className={StyleSheet.content}>
           <h1 className={StyleSheet.caption}>
-            Data <span>tailored</span> to your needs.
+            Data <span>tailored</span> <br className={StyleSheet.newLine}/>to <br className={StyleSheet.newLine}/>your needs.
           </h1>
           <ButtonPrimary name="Learn more" />
         </div>

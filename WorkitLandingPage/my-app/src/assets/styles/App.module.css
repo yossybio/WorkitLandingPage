@@ -137,6 +137,10 @@ body {
     margin-top: -13rem;
   }
 
+  .valuesContainer {
+    padding: 5.6rem 4.4rem 4.4rem 4.4rem;
+  }
+
   .cta {
     padding-right: 4.4rem;
     padding-left: 4.4rem;
@@ -144,6 +148,10 @@ body {
 
   .values {
     display: block;
+  }
+
+  .ctaContentMain {
+    padding: 4.8rem;
   }
 
   .ctaContentMain h3 {
@@ -159,5 +167,43 @@ body {
   .ctaContentMain img {
     bottom: -5rem;
     right: 0;
+  }
+}
+
+/* Media query for devices with a max width of 640px: */
+@media (max-width: 40rem) {
+  .heroIllustration {
+    margin-top: -9rem;
+  }
+
+  .ctaContentMain {
+    padding: 3.2rem;
+  }
+
+  .ctaContentMain h3 {
+    font-size: 3.2rem;
+    line-height: 3.84rem;
+  }
+
+  .cta .content {
+    flex-direction: column;
+    gap: 0;
+
+    align-items: center;
+  }
+
+  .ctaContent {
+    padding-top: 0;
+    width: initial;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .imgSize {
+    margin-bottom: -4rem;
+  }
+
+  .ctaContentMain img {
+    bottom: 0;
   }
 }

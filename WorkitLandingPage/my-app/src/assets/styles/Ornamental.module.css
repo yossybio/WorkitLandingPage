@@ -22,6 +22,13 @@
 /* Media query for devices with a max width of 1040px: */
 @media (max-width: 65rem) {
   .ornamental {
-    transform: translate(0, 30%);
+    transform: translate(0, 33%);
+  }
+}
+
+/* Media query for devices with a max width of 640px: */
+@media (max-width: 40rem) {
+  .ornamental {
+    transform: translate(0, 39%);
   }
 }
