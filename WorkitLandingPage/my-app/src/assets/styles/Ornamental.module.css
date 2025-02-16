@@ -26,9 +26,23 @@
   }
 }
 
+/* Media query for devices with a max width of 840px: */
+@media (max-width: 52.5rem) {
+  main .ornamental {
+    height: 5.6rem;
+  }
+}
+
 /* Media query for devices with a max width of 640px: */
 @media (max-width: 40rem) {
   .ornamental {
     transform: translate(0, 39%);
+  }
+}
+
+/* Media query for devices with a max width of 440px: */
+@media (max-width: 27.5rem) {
+  main .ornamental {
+    height: 2.4rem;
   }
 }

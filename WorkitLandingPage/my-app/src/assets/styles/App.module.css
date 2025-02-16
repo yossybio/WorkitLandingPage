@@ -207,3 +207,22 @@ body {
     bottom: 0;
   }
 }
+
+/* Media query for devices with a max width of 440px: */
+@media (max-width: 27.5rem) {
+  .heroIllustration {
+    margin-top: -6rem;
+  }
+
+  .valuesContainer {
+    padding: 6.4rem 2rem 6.4rem 2rem;
+  }
+
+  .ctaContentMain img {
+    display: none;
+  }
+
+  .sectionValues svg {
+    height: 2.4rem;
+  }
+}

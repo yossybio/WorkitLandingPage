@@ -71,3 +71,24 @@
     line-height: 2.88rem;
   }
 }
+
+/* Media query for devices with a max width of 440px: */
+@media (max-width: 27.5rem) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .valueCaption {
+    text-align: center;
+  }
+
+  .valueDetails {
+    text-align: center;
+  }
+
+  .valueText {
+    gap: 1.6rem;
+  }
+}
