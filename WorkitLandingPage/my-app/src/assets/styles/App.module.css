@@ -47,7 +47,8 @@ body {
 
 .cta .content {
   width: 100%;
-  height: 57.9rem;
+  /* height: 57.9rem; */
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   position: relative;

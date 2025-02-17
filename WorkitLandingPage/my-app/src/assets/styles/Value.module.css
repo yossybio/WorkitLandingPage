@@ -56,6 +56,10 @@
     margin-bottom: 3.2rem;
   }
 
+  .container:last-child {
+    margin-bottom: 0;
+  }
+
   .border {
     width: 4.8rem;
     height: 4.8rem;
