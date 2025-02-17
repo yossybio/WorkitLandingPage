@@ -1,6 +1,6 @@
 import styleSheet from "./assets/styles/App.module.css";
 import heroIllustration from "./assets/images/image-hero.webp";
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import Ornamental from "./components/Ornamental";
 import Value from "./components/Value";
 import founderImg from "./assets/images/image-founder.webp";
@@ -61,7 +61,10 @@ function App() {
                 touch to schedule a call.
               </p>
               <div>
-                <ButtonPrimary name="Apply for access" />
+                <ButtonPrimary
+                  name="Apply for access"
+                  textColor={window.innerWidth <= 440 ? "purple" : "white"}
+                />
               </div>
               <img src={decorationImg} alt="Img for decoration" />
             </div>

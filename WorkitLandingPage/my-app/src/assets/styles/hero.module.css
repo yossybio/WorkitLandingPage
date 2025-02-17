@@ -109,9 +109,11 @@
 
 /* Media query for devices with a max width of 840px: */
 @media (max-width: 52.5rem) {
-  /* .container {
-    height: 51.5rem;
-  } */
+  .navContainer {
+    padding-top: 3.2rem;
+    padding-right: 4.4rem;
+    padding-left: 4.4rem;
+  }
 
   .headerLeftImage {
     left: -21.5rem;
@@ -149,11 +151,25 @@
 
 /* Media query for devices with a max width of 440px: */
 @media (max-width: 27.5rem) {
+  .container {
+    height: 46rem;
+  }
+
+  .navContainer {
+    padding-top: 3.2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
   .headerLeftImage {
     display: none;
   }
 
   .headerRightImage {
     display: none;
+  }
+
+  .mainContent {
+    padding: 5.6rem 2rem 14.4rem 2rem;
   }
 }

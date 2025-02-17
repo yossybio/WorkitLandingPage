@@ -1,6 +1,5 @@
 .primaryBtnStyle {
   background: #44ffa1;
-  color: #24053e;
   font-family: Manrope;
   font-size: 18px;
   font-weight: 700;
@@ -8,6 +7,14 @@
   text-align: center;
   text-decoration: none;
   padding: 1.2rem 3.2rem 1.2rem 3.2rem;
+}
+
+.purpleText {
+  color: #24053e;
+}
+
+.whiteText {
+  color: white;
 }
 
 .primaryBtnStyle:hover {

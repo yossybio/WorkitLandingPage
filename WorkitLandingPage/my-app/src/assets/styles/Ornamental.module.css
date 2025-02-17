@@ -45,4 +45,8 @@
   main .ornamental {
     height: 2.4rem;
   }
+
+  .ornamental {
+    transform: translate(0, 25%);
+  }
 }

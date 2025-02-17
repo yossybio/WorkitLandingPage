@@ -35,7 +35,7 @@ export default function Hero() {
             to <br className={StyleSheet.newLine} />
             your needs.
           </h1>
-          <ButtonPrimary name="Learn more" />
+          <ButtonPrimary name="Learn more" textColor="purple" />
         </div>
       </div>
       <Ornamental />
