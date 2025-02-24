@@ -28,7 +28,7 @@ Users should be able to:
 
 ![Top Screenshot](./topScreenshot.jpg)
 ![Middle Screenshot](./middleScreenshot.jpg)
-![End Screenshot](./endScreenshot.jpg)
+![Bottom Screenshot](./bottomScreenshot.jpg)
 
 ### Links
 
